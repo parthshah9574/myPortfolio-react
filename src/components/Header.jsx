@@ -1,3 +1,5 @@
+import {TfiMenuAlt} from "react-icons/all";
+
 const Header = () => {
     return (
         <>
@@ -27,7 +29,7 @@ const Header = () => {
                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <i className="fa-solid fa-bars"></i>
+                        <TfiMenuAlt className="side-icon" />
                     </nav>
                     <div className="header-text">
                         <p>Software Developer</p>

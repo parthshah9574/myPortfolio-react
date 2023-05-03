@@ -42,6 +42,10 @@ nav {
     flex-wrap: wrap;
 }
 
+nav .side-icon {
+    font-size: 25px;
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -51,7 +55,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     position: relative;
 }
 
@@ -209,7 +213,7 @@ nav ul li a:hover::after {
 }
 
 .sub-title {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .sub-title2 {
     margin-top: 50px;
@@ -298,6 +302,11 @@ nav ul li a:hover::after {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    text-align: center;
+}
+
+.layer .link-icon {
+    font-weight: 900;
     text-align: center;
 }
 

@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import MySkills from "./components/MySkills";
 import Portfolio from "./components/Portfolio";
@@ -10,6 +11,7 @@ const App = () => {
             <About />
             <MySkills />
             <Portfolio />
+            <Contact />
         </div>
     );
 };
