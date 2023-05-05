@@ -1,3 +1,9 @@
+import {
+    FaLinkedin,
+    FaAngleUp,
+    /* FiPhone, HiMailOpen, */ FaGithub,
+} from "react-icons/all";
+
 const Contact = () => {
     return (
         <>
@@ -6,22 +12,23 @@ const Contact = () => {
                     <div className="row">
                         <div className="contact-left">
                             <h1 className="sub-title">Contact Me</h1>
+                            {/* 
                             <p>
-                                <i className="fa-solid fa-paper-plane"></i>
+                                <HiMailOpen className="icons" />
                                 shah.parth1398@gmail.com
                             </p>
                             <p>
-                                <i className="fa-sharp fa-solid fa-phone"></i>
+                                <FiPhone className="icons" />
                                 647-818-7065
-                            </p>
+                            </p> */}
                             <div className="social-icons">
                                 <a href="https://www.linkedin.com/in/parthshah1398/">
-                                    <i className="fa-brands fa-linkedin-in"></i>
+                                    <FaLinkedin />
                                 </a>
                             </div>
                             <div className="social-icons">
                                 <a href="https://github.com/parthshah9574">
-                                    <i className="fa-brands fa-github"></i>
+                                    <FaGithub />
                                 </a>
                             </div>
                             <a
@@ -59,7 +66,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <a href="#header" className="top-link">
-                    <i className="fas fa-angle-up"></i>
+                    <FaAngleUp />
                 </a>
             </div>
         </>

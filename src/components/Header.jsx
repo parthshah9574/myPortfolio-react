@@ -1,6 +1,14 @@
-import {TfiMenuAlt} from "react-icons/all";
+import {FaTimes, TfiMenuAlt} from "react-icons/all";
 
 const Header = () => {
+    const openMenu = () => {
+        const sidemenu = document.getElementById("sidemenu");
+        sidemenu.style.right = "0";
+    };
+    const closeMenu = () => {
+        const sidemenu = document.getElementById("sidemenu");
+        sidemenu.style.right = "-200px";
+    };
     return (
         <>
             <div id="header">
@@ -12,7 +20,10 @@ const Header = () => {
 
                         {/* <img src="images/my_logo.png" className="logo" />  */}
                         <ul id="sidemenu">
-                            <i className="fas fa-times"></i>
+                            <FaTimes
+                                className="fas fa-times"
+                                onClick={() => closeMenu()}
+                            />
                             <li>
                                 <a href="#header">Home</a>
                             </li>
@@ -29,7 +40,11 @@ const Header = () => {
                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <TfiMenuAlt className="side-icon" />
+                        <TfiMenuAlt
+                            className="side-icon"
+                            style={{cursor: "pointer"}}
+                            onClick={() => openMenu()}
+                        />
                     </nav>
                     <div className="header-text">
                         <p>Software Developer</p>

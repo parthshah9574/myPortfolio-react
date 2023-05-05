@@ -192,7 +192,7 @@ nav ul li a:hover::after {
     transition: background 0.5s, transform 0.5s;
 }
 
-.skill-list div i {
+.skill-list div .icons {
     font-size: 50px;
     margin-bottom: 30px;
 }
@@ -351,6 +351,14 @@ nav ul li a:hover::after {
     color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
+}
+
+.contact-left p .icons {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: block;
 }
 
 .social-icons {

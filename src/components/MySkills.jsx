@@ -3,11 +3,18 @@ import {
     FaCss3Alt,
     FaHtml5,
     FaReact,
+    FaUserSecret,
     FaVuejs,
 } from "react-icons/fa";
+import {MdPhotoCamera} from "react-icons/md";
+import {TbCode} from "react-icons/tb";
+import {DiScrum} from "react-icons/di";
 import {SiJavascript} from "react-icons/si";
 
 const MySkills = () => {
+
+    
+
     return (
         <>
             {" "}
@@ -16,21 +23,25 @@ const MySkills = () => {
                     <h1 className="sub-title">My skills</h1>
                     <div className="skill-list">
                         <div>
-                            <i className="fa-sharp fa-solid fa-code"></i>
+                            <TbCode className="icons" />
                             <h2>Web Development</h2>
                         </div>
                         <div>
-                            <i className="fa-brands fa-react"></i>
+                            <FaReact className="icons" />
                             <h2>Application Development</h2>
                         </div>
                         <div>
-                            <i className="fa-solid fa-user-secret"></i>
+                            <FaUserSecret className="icons" />
                             <h2>Cyber Security Tools</h2>
                         </div>
 
                         <div>
-                            <i className="fa-solid fa-camera"></i>
+                            <MdPhotoCamera className="icons" />
                             <h2>Photography</h2>
+                        </div>
+                        <div>
+                            <DiScrum className="icons" />
+                            <h2>Quality Assurance</h2>
                         </div>
                     </div>
                     <h1 className="sub-title2">My skill-set</h1>

@@ -1,11 +1,12 @@
-import {FaExternalLinkAlt} from "react-icons/fa";
-import {Link} from "react-router-dom";
-const Portfolio = () => {
+import React from "react";
+import {FaExternalLinkAlt} from "react-icons/all";
+
+const ReactProjects = () => {
     return (
         <>
             <div id="portfolio">
                 <div className="container">
-                    <h1 className="sub-title">My work</h1>
+                    <h1 className="sub-title">My React Projects</h1>
                     <div className="work-list">
                         <div className="work">
                             <img src="images/Nextfab.png" alt="" />
@@ -39,12 +40,9 @@ const Portfolio = () => {
                             <div className="layer">
                                 <h3>My React Projects</h3>
                                 <p>Fundamental projects for React.js</p>
-                                {/*  <a href="https://react-backroadapp.netlify.app/">
+                                <a href="https://react-backroadapp.netlify.app/">
                                     <FaExternalLinkAlt className="link-icon" />
-                                </a> */}
-                                <Link to="/ReactProjects">
-                                    <FaExternalLinkAlt className="link-icon" />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="work">
@@ -68,4 +66,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default ReactProjects;
