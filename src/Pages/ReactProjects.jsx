@@ -1,4 +1,3 @@
-import React from "react";
 import {FaExternalLinkAlt, IoMdArrowRoundBack} from "react-icons/all";
 import {Link} from "react-router-dom";
 
@@ -39,8 +38,8 @@ const ReactProjects = () => {
                             />
                             <div className="layer">
                                 <h3>Grocery bud</h3>
-                                <p>Grocery-bud</p>
-                                <a href="https://react-backroadapp.netlify.app/">
+                                <p>Create your grocery list</p>
+                                <a href="https://grocery-list-v.netlify.app/">
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>
