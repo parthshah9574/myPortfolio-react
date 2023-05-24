@@ -24,7 +24,7 @@ const ReactProjects = () => {
                             <div className="layer">
                                 <h3>Backroads Tours</h3>
                                 <p>
-                                    Developed frontend for 'Backroads Tour'
+                                    Developed frontend for Backroads Tours
                                     project
                                 </p>
                                 <a href="https://react-backroadapp.netlify.app/">
@@ -38,21 +38,8 @@ const ReactProjects = () => {
                                 alt=""
                             />
                             <div className="layer">
-                                <h3>Backroads Tours</h3>
+                                <h3>Grocery bud</h3>
                                 <p>Grocery-bud</p>
-                                <a href="https://react-backroadapp.netlify.app/">
-                                    <FaExternalLinkAlt className="link-icon" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="work">
-                            <img src="images/backroad_app.png" alt="" />
-                            <div className="layer">
-                                <h3>Backroads Tours</h3>
-                                <p>
-                                    Developed frontend for 'Backroads Tour'
-                                    project
-                                </p>
                                 <a href="https://react-backroadapp.netlify.app/">
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
