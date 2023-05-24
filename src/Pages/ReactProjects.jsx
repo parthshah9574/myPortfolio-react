@@ -37,7 +37,7 @@ const ReactProjects = () => {
                                 alt=""
                             />
                             <div className="layer">
-                                <h3>Grocery bud</h3>
+                                <h3>Grocery-bud</h3>
                                 <p>Create your grocery list</p>
                                 <a href="https://grocery-list-v.netlify.app/">
                                     <FaExternalLinkAlt className="link-icon" />
