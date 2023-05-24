@@ -2,11 +2,26 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+
+    /* font-family: Google Sans Medium; */
     box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #ff004f;
+    border-radius: 25px;
 }
 
 body {
@@ -17,17 +32,17 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/Artboard\ 1.jpg);
+    background-image: url(/src/assets/images/Artboard\ 1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 1.5rem;
 }
 
 .logo span {
-    font-size: 40px;
+    font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
     color: #ff004f;
 }
@@ -43,7 +58,7 @@ nav {
 }
 
 nav .side-icon {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav ul li {
@@ -55,7 +70,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
 }
 
@@ -92,7 +107,8 @@ nav ul li a:hover::after {
 
 #about {
     padding: 80px 0;
-    color: #ababab;
+    /* color: #ababab; */
+    color: #e2e2e2;
 }
 
 .row {
@@ -115,7 +131,7 @@ nav ul li a:hover::after {
 }
 
 .about-col-2 p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .sub-title {
@@ -334,43 +350,64 @@ nav ul li a:hover::after {
     background: #ff004f;
 }
 
-/* Contact */
-.contact-left {
-    flex-basis: 35%;
-}
+.back-btn {
+    display: inline-block;
+    margin: 10px 30px auto;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ff004f;
+    /* right: 10px; */
+    /* bottom: 10px; */
+    padding: 10px;
+    font-size: 23px;
 
-.contact-right {
-    flex-basis: 60%;
-}
-
-.contact-left p {
-    margin-top: 30px;
-}
-
-.contact-left p i {
-    color: #ff004f;
-    margin-right: 15px;
-    font-size: 25px;
-}
-
-.contact-left p .icons {
+    border-radius: 100%;
     text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ababab;
-    display: block;
+    color: #fff;
+    background: #ff004f;
+}
+
+/* Contact */
+
+.contact-heading-text-div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: Google Sans Medium;
+}
+
+.contact-heading-text-div .contact-header-detail-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #656565;
+}
+
+.contact-heading-text {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 60px;
 }
 
 .social-icons {
     margin-top: 30px;
+    display: flex;
+    align-content: center;
 }
 
 .social-icons a {
     text-decoration: none;
+    text-align: center;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
-    display: block;
+    color: #f3f3f3;
+    display: flex;
     transition: transform 0.5s;
 }
 
@@ -378,10 +415,19 @@ nav ul li a:hover::after {
     color: #ff004f;
     transform: translateY(-5px);
 }
+.social-icons .linkedIn:hover {
+    color: #1c6ec0;
+    transform: translateY(-5px);
+}
+.social-icons .mail:hover {
+    color: #d2433a;
+    transform: translateY(-5px);
+}
 
 .btn.btn2 {
     display: inline-block;
     background: #ff004f;
+    margin-top: 20px;
 }
 
 .contact-right form {
@@ -451,7 +497,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/me.JPEG);
+        background-image: url(/src/assets/images/me.JPEG);
     }
     .header-text {
         margin-top: 100%;

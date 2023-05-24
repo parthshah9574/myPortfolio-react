@@ -1,36 +1,46 @@
 import React from "react";
-import {FaExternalLinkAlt} from "react-icons/all";
+import {FaExternalLinkAlt, IoMdArrowRoundBack} from "react-icons/all";
+import {Link} from "react-router-dom";
 
 const ReactProjects = () => {
     return (
         <>
             <div id="portfolio">
+                <div className="back-icon">
+                    <Link to="/Portfolio">
+                        <button className="back-btn">
+                            <IoMdArrowRoundBack />
+                        </button>
+                    </Link>
+                </div>
                 <div className="container">
                     <h1 className="sub-title">My React Projects</h1>
                     <div className="work-list">
                         <div className="work">
-                            <img src="images/Nextfab.png" alt="" />
+                            <img
+                                src="src/assets/images/backroad_app.png"
+                                alt=""
+                            />
                             <div className="layer">
-                                <h3>Nextfab Application</h3>
+                                <h3>Backroads Tours</h3>
                                 <p>
-                                    • An application for the organization`s
-                                    employees for labor jobs. <br />
-                                    • Technologies used: React Native, nodejs,
-                                    SQL, Figma for UI/UX design. <br />
+                                    Developed frontend for 'Backroads Tour'
+                                    project
                                 </p>
-                                <a href="https://www.figma.com/file/DOhWmgoMn2CPtITRZJUxVc/NextFeb?node-id=0%3A1&t=fpAjfgN5MJaglpeL-1">
+                                <a href="https://react-backroadapp.netlify.app/">
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>
                         </div>
                         <div className="work">
-                            <img src="images/dice_game.jpg" alt="" />
+                            <img
+                                src="/src/assets/images/grocery_bud.png"
+                                alt=""
+                            />
                             <div className="layer">
-                                <h3>Dice Game</h3>
-                                <p>
-                                    Developed dice game to practice JavaScript
-                                </p>
-                                <a href="https://parthshah9574.github.io/Dice_Game/">
+                                <h3>Backroads Tours</h3>
+                                <p>Grocery-bud</p>
+                                <a href="https://react-backroadapp.netlify.app/">
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>
@@ -38,22 +48,12 @@ const ReactProjects = () => {
                         <div className="work">
                             <img src="images/backroad_app.png" alt="" />
                             <div className="layer">
-                                <h3>My React Projects</h3>
-                                <p>Fundamental projects for React.js</p>
-                                <a href="https://react-backroadapp.netlify.app/">
-                                    <FaExternalLinkAlt className="link-icon" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="work">
-                            <img src="images/power ranger4.jpg" alt="" />
-                            <div className="layer">
-                                <h3>Creativity</h3>
+                                <h3>Backroads Tours</h3>
                                 <p>
-                                    Explore my creativity for design and 3D
-                                    projects.
+                                    Developed frontend for 'Backroads Tour'
+                                    project
                                 </p>
-                                <a href="https://drive.google.com/drive/folders/1g9DK6hV8xFKD6qJGZo9r2_WpFgX4pANg?usp=sharing">
+                                <a href="https://react-backroadapp.netlify.app/">
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>

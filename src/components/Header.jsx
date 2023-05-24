@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="container">
                     <nav>
                         <p className="logo">
-                            <span>P</span>arth.
+                            <span>p</span>arth.s()
                         </p>
 
                         {/* <img src="images/my_logo.png" className="logo" />  */}
@@ -47,10 +47,10 @@ const Header = () => {
                         />
                     </nav>
                     <div className="header-text">
-                        <p>Software Developer</p>
                         <h1>
-                            Hi, <span>Parth</span> Shah here.
+                            Hi, I am <span>Parth Shah</span>.
                         </h1>
+                        <p>Software Developer | Web Developer | React</p>
                     </div>
                 </div>
             </div>
