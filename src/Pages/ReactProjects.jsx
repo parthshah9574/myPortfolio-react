@@ -44,9 +44,18 @@ const ReactProjects = () => {
                                 </a>
                             </div>
                         </div>
+                        <div className="work">
+                            <img src="/src/assets/images/tours.png" alt="" />
+                            <div className="layer">
+                                <h3>Display-tours-react</h3>
+                                <p></p>
+                                <a href="https://display-tours-react.netlify.app/">
+                                    <FaExternalLinkAlt className="link-icon" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                {/* <!-- <a href="#" className="btn">See more</a> --> */}
             </div>
         </>
     );
