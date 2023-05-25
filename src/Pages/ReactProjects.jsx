@@ -7,7 +7,10 @@ const ReactProjects = () => {
             <div id="portfolio">
                 <div className="back-icon">
                     <Link to="/Portfolio">
-                        <button className="back-btn">
+                        <button
+                            className="back-btn"
+                            style={{cursor: "pointer"}}
+                        >
                             <IoMdArrowRoundBack />
                         </button>
                     </Link>
