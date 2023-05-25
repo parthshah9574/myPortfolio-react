@@ -16,10 +16,7 @@ const ReactProjects = () => {
                     <h1 className="sub-title">My React Projects</h1>
                     <div className="work-list">
                         <div className="work">
-                            <img
-                                src="../../public/assets/images/backroad_app.png"
-                                alt=""
-                            />
+                            <img src="/assets/images/backroad_app.png" alt="" />
                             <div className="layer">
                                 <h3>Backroads Tours</h3>
                                 <p>
@@ -32,10 +29,7 @@ const ReactProjects = () => {
                             </div>
                         </div>
                         <div className="work">
-                            <img
-                                src="../../public/assets/images/grocery_bud.png"
-                                alt=""
-                            />
+                            <img src="/assets/images/grocery_bud.png" alt="" />
                             <div className="layer">
                                 <h3>Grocery-bud</h3>
                                 <p>Create your grocery list</p>
@@ -45,10 +39,7 @@ const ReactProjects = () => {
                             </div>
                         </div>
                         <div className="work">
-                            <img
-                                src="../../public/assets/images/tours.png"
-                                alt=""
-                            />
+                            <img src="/assets/images/tours.png" alt="" />
                             <div className="layer">
                                 <h3>Display-tours-react</h3>
                                 <p></p>

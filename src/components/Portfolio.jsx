@@ -8,10 +8,7 @@ const Portfolio = () => {
                     <h1 className="sub-title">My work</h1>
                     <div className="work-list">
                         <div className="work">
-                            <img
-                                src="../../public/assets/images/Nextfab.png"
-                                alt=""
-                            />
+                            <img src="/assets/images/Nextfab.png" alt="" />
                             <div className="layer">
                                 <h3>Nextfab Application</h3>
                                 <p>
@@ -26,10 +23,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="work">
-                            <img
-                                src="../../public/assets/images/dice_game.jpg"
-                                alt=""
-                            />
+                            <img src="/assets/images/dice_game.jpg" alt="" />
                             <div className="layer">
                                 <h3>Dice Game</h3>
                                 <p>
@@ -41,10 +35,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="work">
-                            <img
-                                src="../../public/assets/images/backroad_app.png"
-                                alt=""
-                            />
+                            <img src="/assets/images/backroad_app.png" alt="" />
                             <div className="layer">
                                 <h3>My React Projects</h3>
                                 <p>Fundamental projects for React.js</p>
@@ -58,7 +49,7 @@ const Portfolio = () => {
                         </div>
                         <div className="work">
                             <img
-                                src="../../public/assets/images/power ranger4.jpg"
+                                src="/assets/images/power ranger4.jpg"
                                 alt=""
                             />
                             <div className="layer">
