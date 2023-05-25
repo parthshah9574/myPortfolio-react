@@ -17,7 +17,7 @@ const ReactProjects = () => {
                     <div className="work-list">
                         <div className="work">
                             <img
-                                src="src/assets/images/backroad_app.png"
+                                src="/src/assets/images/backroad_app.png"
                                 alt=""
                             />
                             <div className="layer">
