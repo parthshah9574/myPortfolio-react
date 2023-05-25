@@ -17,7 +17,7 @@ const ReactProjects = () => {
                     <div className="work-list">
                         <div className="work">
                             <img
-                                src="/src/assets/images/backroad_app.png"
+                                src="../../public/assets/images/backroad_app.png"
                                 alt=""
                             />
                             <div className="layer">
@@ -33,7 +33,7 @@ const ReactProjects = () => {
                         </div>
                         <div className="work">
                             <img
-                                src="/src/assets/images/grocery_bud.png"
+                                src="../../public/assets/images/grocery_bud.png"
                                 alt=""
                             />
                             <div className="layer">
@@ -45,7 +45,10 @@ const ReactProjects = () => {
                             </div>
                         </div>
                         <div className="work">
-                            <img src="/src/assets/images/tours.png" alt="" />
+                            <img
+                                src="../../public/assets/images/tours.png"
+                                alt=""
+                            />
                             <div className="layer">
                                 <h3>Display-tours-react</h3>
                                 <p></p>

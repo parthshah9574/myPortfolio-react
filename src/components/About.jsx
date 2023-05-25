@@ -179,7 +179,10 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="about-col-1">
-                            <img src="src/assets/images/USER.jpg" alt="" />
+                            <img
+                                src="../../public/assets/images/USER.jpg"
+                                alt=""
+                            />
                         </div>
                         <div className="about-col-2">
                             <h1 className="sub-title">About Me</h1>

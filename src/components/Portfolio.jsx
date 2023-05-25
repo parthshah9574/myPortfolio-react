@@ -8,7 +8,10 @@ const Portfolio = () => {
                     <h1 className="sub-title">My work</h1>
                     <div className="work-list">
                         <div className="work">
-                            <img src="src/assets/images/Nextfab.png" alt="" />
+                            <img
+                                src="../../public/assets/images/Nextfab.png"
+                                alt=""
+                            />
                             <div className="layer">
                                 <h3>Nextfab Application</h3>
                                 <p>
@@ -24,7 +27,7 @@ const Portfolio = () => {
                         </div>
                         <div className="work">
                             <img
-                                src="/src/assets/images/dice_game.jpg"
+                                src="../../public/assets/images/dice_game.jpg"
                                 alt=""
                             />
                             <div className="layer">
@@ -39,7 +42,7 @@ const Portfolio = () => {
                         </div>
                         <div className="work">
                             <img
-                                src="src/assets/images/backroad_app.png"
+                                src="../../public/assets/images/backroad_app.png"
                                 alt=""
                             />
                             <div className="layer">
@@ -55,7 +58,7 @@ const Portfolio = () => {
                         </div>
                         <div className="work">
                             <img
-                                src="/src/assets/images/power ranger4.jpg"
+                                src="../../public/assets/images/power ranger4.jpg"
                                 alt=""
                             />
                             <div className="layer">
