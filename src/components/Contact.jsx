@@ -42,7 +42,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <a
-                                href="https://drive.google.com/file/d/1zrW8XMf-w76Pdc-NugAu1ccBEbRdbApX/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1JQT7gTxa-qvIQigOxFQjP0CnsRSKyXgl/view?usp=sharing"
                                 className="btn btn2"
                             >
                                 My Resume
