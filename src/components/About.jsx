@@ -58,7 +58,7 @@ const About = () => {
                             <span>
                                 <strong>Programming Languagess</strong>
                             </span>
-                            <br />• JavaScript • Python • Java.
+                            <br />• JavaScript • Python • Java • C# • .Net .
                         </li>
                         <li>
                             <span>
@@ -66,7 +66,7 @@ const About = () => {
                             </span>
                             <br />• Adobe Creative Cloud • Adobe XD • Figma •
                             UI/UX design & development • Prototyping •
-                            Wireframing.
+                            Wireframing • Photoshop • Illustrator.
                         </li>
                     </ul>
                 </div>
@@ -193,8 +193,8 @@ const About = () => {
                             <br />
                             <p>
                                 Also possesses practical knowledge of HTML, CSS,
-                                JavaScript, Bootstrap, Java, MySQL, Azure
-                                DevOps, MongoDB, NodeJS, and VueJS.
+                                JavaScript, Bootstrap, Java, Python, C#, .Net,
+                                MySQL, Azure DevOps, MongoDB, NodeJS, and VueJS.
                             </p>
                             <br />
                             <p>
