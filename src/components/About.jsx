@@ -48,7 +48,7 @@ const About = () => {
                         <li>
                             <span>
                                 <strong>
-                                    Web Development Technologies/Frameworks:{" "}
+                                    Web Development Technologies/Frameworks
                                 </strong>
                             </span>
                             <br />• HTML5 • CSS3 • NodeJS • Bootstrap • VueJS •
@@ -59,6 +59,21 @@ const About = () => {
                                 <strong>Programming Languagess</strong>
                             </span>
                             <br />• JavaScript • Python • Java • C# • .Net .
+                        </li>
+                        <li>
+                            <span>
+                                <strong>Database</strong>
+                            </span>
+                            <br />• SQL • MySQL • MongoDB • MySQL Server.
+                        </li>
+                        <li>
+                            <span>
+                                <strong>Cyber Security Tools</strong>
+                            </span>
+                            <br />
+                            Microsoft Azure Sentinel • Defender for Cloud •
+                            Defender for identity • Microsoft 365 defender •
+                            CrowdStrike Falcon
                         </li>
                         <li>
                             <span>
@@ -85,14 +100,25 @@ const About = () => {
                                 <br />
                                 at Ahmedabad Institute of Technology
                             </span>
-                            <br />
-                            • Design and developed dynamic web pages for events
-                            using HTML5, CSS3, JavaScript, Bootstrap.
-                            <br />• Developing interactive activities such as
-                            learning objects, interactive web pages, videos,
-                            etc. <br />• Design banner and certificates for
-                            events using graphic design tools such as: Adobe
-                            photoshop, Adobe Illustrator.
+                            <br />• Proficient in front-end web development
+                            using HTML5, CSS3, JavaScript, and Bootstrap to
+                            create dynamic and responsive web pages for various
+                            events. <br />
+                            • Applied my problem-solving skills with in-depth
+                            knowledge of full-stack software development
+                            principles, including OOPs concepts, REST APIs
+                            database design, and Use Interfaces /User Experience
+                            design, to deliver interactive and engaging web
+                            experiences.
+                            <br />• Demonstrated expertise in debugging web page
+                            errors or issues, creating interactive learning
+                            objects, implementing OOPs concepts, developing
+                            responsive and interactive web pages, and producing
+                            high-quality videos.
+                            <br />• Applied skills in graphic design tools,
+                            including Adobe Photoshop and Adobe Illustrator, to
+                            design visually appealing banners and certificates
+                            for events.
                         </li>
                         <li>
                             {" "}
@@ -190,20 +216,7 @@ const About = () => {
                                 opportunities to get industrial experience,
                                 learn more skills, and grow into a professional.
                             </p>
-                            <br />
-                            <p>
-                                Also possesses practical knowledge of HTML, CSS,
-                                JavaScript, Bootstrap, Java, Python, C#, .Net,
-                                MySQL, Azure DevOps, MongoDB, NodeJS, and VueJS.
-                            </p>
-                            <br />
-                            <p>
-                                As a result of my work term, I have a working
-                                knowledge of security tools such as Microsoft
-                                Azure Sentinel, KnowBe4, ExtraHop, Crowdstrike
-                                Falcon, Veracode, Microsoft defender for cloud,
-                                and Microsoft defender 365.
-                            </p>
+
                             <div className="tab-titles">
                                 <p
                                     className={`tab-links ${
