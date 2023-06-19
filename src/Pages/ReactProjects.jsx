@@ -26,7 +26,11 @@ const ReactProjects = () => {
                                     Developed frontend for Backroads Tours
                                     project
                                 </p>
-                                <a href="https://react-backroadapp.netlify.app/">
+                                <a
+                                    href="https://react-backroadapp.netlify.app/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>
@@ -36,7 +40,11 @@ const ReactProjects = () => {
                             <div className="layer">
                                 <h3>Grocery-bud</h3>
                                 <p>Create your grocery list</p>
-                                <a href="https://grocery-list-v.netlify.app/">
+                                <a
+                                    href="https://grocery-list-v.netlify.app/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>
@@ -46,7 +54,11 @@ const ReactProjects = () => {
                             <div className="layer">
                                 <h3>Display-tours-react</h3>
                                 <p></p>
-                                <a href="https://display-tours-react.netlify.app/">
+                                <a
+                                    href="https://display-tours-react.netlify.app/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>
