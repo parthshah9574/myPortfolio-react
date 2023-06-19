@@ -10,11 +10,11 @@ const router = createBrowserRouter([
         element: <App />,
     },
     {
-        path: "ReactProjects",
+        path: "/ReactProjects",
         element: <ReactProjects />,
     },
     {
-        path: "Portfolio",
+        path: "/Portfolio",
         element: <App />,
     },
 ]);
