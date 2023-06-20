@@ -17,7 +17,11 @@ const Portfolio = () => {
                                     • Technologies used: React Native, nodejs,
                                     SQL, Figma for UI/UX design. <br />
                                 </p>
-                                <a href="https://www.figma.com/file/DOhWmgoMn2CPtITRZJUxVc/NextFeb?node-id=0%3A1&t=fpAjfgN5MJaglpeL-1">
+                                <a
+                                    href="https://www.figma.com/file/DOhWmgoMn2CPtITRZJUxVc/NextFeb?node-id=0%3A1&t=fpAjfgN5MJaglpeL-1"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>
@@ -29,7 +33,11 @@ const Portfolio = () => {
                                 <p>
                                     Developed dice game to practice JavaScript
                                 </p>
-                                <a href="https://parthshah9574.github.io/Dice_Game/">
+                                <a
+                                    href="https://parthshah9574.github.io/Dice_Game/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>
@@ -58,7 +66,11 @@ const Portfolio = () => {
                                     Explore my creativity for design and 3D
                                     projects.
                                 </p>
-                                <a href="https://drive.google.com/drive/folders/1g9DK6hV8xFKD6qJGZo9r2_WpFgX4pANg?usp=sharing">
+                                <a
+                                    href="https://drive.google.com/drive/folders/1g9DK6hV8xFKD6qJGZo9r2_WpFgX4pANg?usp=sharing"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <FaExternalLinkAlt className="link-icon" />
                                 </a>
                             </div>

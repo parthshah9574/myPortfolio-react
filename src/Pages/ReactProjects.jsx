@@ -9,9 +9,9 @@ const ReactProjects = () => {
                 <div className="back-icon">
                     <Link to="/src/components/Portfolio.jsx">
                         <button
-                            onClick={() => window.history.back()}
                             className="back-btn"
                             style={{cursor: "pointer"}}
+                            onClick={() => window.history.back()}
                         >
                             <IoMdArrowRoundBack />
                         </button>
