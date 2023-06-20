@@ -1,4 +1,5 @@
-import {FaExternalLinkAlt, IoMdArrowRoundBack} from "react-icons/all";
+import {FaExternalLinkAlt} from "react-icons/fa";
+import {IoMdArrowRoundBack} from "react-icons/io";
 import {Link} from "react-router-dom";
 
 const ReactProjects = () => {
@@ -6,8 +7,9 @@ const ReactProjects = () => {
         <>
             <div id="portfolio">
                 <div className="back-icon">
-                    <Link to="/Portfolio">
+                    <Link to="/src/components/Portfolio.jsx">
                         <button
+                            onClick={() => window.history.back()}
                             className="back-btn"
                             style={{cursor: "pointer"}}
                         >
