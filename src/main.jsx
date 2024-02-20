@@ -13,10 +13,11 @@ const router = createBrowserRouter([
         path: "/ReactProjects",
         element: <ReactProjects />,
     },
-    // {
-    //     path: "/Portfolio",
-    //     element: <App />,
-    // },
+
+    {
+        path: "/Portfolio",
+        element: <App />,
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

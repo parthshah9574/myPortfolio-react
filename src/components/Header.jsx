@@ -50,7 +50,7 @@ const Header = () => {
                         <h1>
                             Hi, I am <span>Parth Shah</span>.
                         </h1>
-                        <p>Software Developer | Web Developer | React</p>
+                        <p>Cyber Security Enthusiast | Web Developer | React</p>
                     </div>
                 </div>
             </div>

@@ -27,6 +27,44 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="work">
+                            <img src="/assets/images/Nextfab.png" alt="" />
+                            <div className="layer">
+                                <h3>Nextfab Application</h3>
+                                <p>
+                                    • An application for the organization`s
+                                    employees for labor jobs. <br />
+                                    • Technologies used: React Native, nodejs,
+                                    SQL, Figma for UI/UX design. <br />
+                                </p>
+                                <a
+                                    href="https://www.figma.com/file/DOhWmgoMn2CPtITRZJUxVc/NextFeb?node-id=0%3A1&t=fpAjfgN5MJaglpeL-1"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <FaExternalLinkAlt className="link-icon" />
+                                </a>
+                            </div>
+                        </div>
+                        <div className="work">
+                            <img src="/assets/images/Nextfab.png" alt="" />
+                            <div className="layer">
+                                <h3>Nextfab Application</h3>
+                                <p>
+                                    • An application for the organization`s
+                                    employees for labor jobs. <br />
+                                    • Technologies used: React Native, nodejs,
+                                    SQL, Figma for UI/UX design. <br />
+                                </p>
+                                <a
+                                    href="https://www.figma.com/file/DOhWmgoMn2CPtITRZJUxVc/NextFeb?node-id=0%3A1&t=fpAjfgN5MJaglpeL-1"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <FaExternalLinkAlt className="link-icon" />
+                                </a>
+                            </div>
+                        </div>
+                        <div className="work">
                             <img src="/assets/images/dice_game.jpg" alt="" />
                             <div className="layer">
                                 <h3>Dice Game</h3>
