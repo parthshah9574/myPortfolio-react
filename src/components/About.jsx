@@ -49,10 +49,9 @@ const About = () => {
                             <span>
                                 <strong>Cyber Security Tools</strong>
                             </span>
-                            <br />
-                            Microsoft Azure Sentinel • Defender for Cloud •
-                            Defender for identity • Microsoft 365 defender •
-                            CrowdStrike Falcon
+                            <br />• Microsoft Azure Sentinel • Defender for
+                            Cloud • Defender for identity • Microsoft 365
+                            defender • CrowdStrike Falcon.
                         </li>
                         <li>
                             <span>
@@ -67,7 +66,7 @@ const About = () => {
                             <span>
                                 <strong>Programming Languages</strong>
                             </span>
-                            <br />• JavaScript • Python
+                            <br />• JavaScript • Python.
                         </li>
                         <li>
                             <span>
