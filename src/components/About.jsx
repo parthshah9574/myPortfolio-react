@@ -47,6 +47,15 @@ const About = () => {
                     <ul>
                         <li>
                             <span>
+                                <strong>Cyber Security Tools</strong>
+                            </span>
+                            <br />
+                            Microsoft Azure Sentinel • Defender for Cloud •
+                            Defender for identity • Microsoft 365 defender •
+                            CrowdStrike Falcon
+                        </li>
+                        <li>
+                            <span>
                                 <strong>
                                     Web Development Technologies/Frameworks
                                 </strong>
@@ -56,24 +65,15 @@ const About = () => {
                         </li>
                         <li>
                             <span>
-                                <strong>Programming Languagess</strong>
+                                <strong>Programming Languages</strong>
                             </span>
-                            <br />• JavaScript • Python • Java • C# • .Net .
+                            <br />• JavaScript • Python
                         </li>
                         <li>
                             <span>
                                 <strong>Database</strong>
                             </span>
                             <br />• SQL • MySQL • MongoDB • MySQL Server.
-                        </li>
-                        <li>
-                            <span>
-                                <strong>Cyber Security Tools</strong>
-                            </span>
-                            <br />
-                            Microsoft Azure Sentinel • Defender for Cloud •
-                            Defender for identity • Microsoft 365 defender •
-                            CrowdStrike Falcon
                         </li>
                         <li>
                             <span>
@@ -100,23 +100,20 @@ const About = () => {
                                 <br />
                                 at Ahmedabad Institute of Technology
                             </span>
-                            <br />• Proficient in front-end web development
-                            using HTML5, CSS3, JavaScript, and Bootstrap to
-                            create dynamic and responsive web pages for various
-                            events. <br />
-                            • Applied my problem-solving skills with in-depth
-                            knowledge of full-stack software development
-                            principles, including OOPs concepts, REST APIs
-                            database design, and Use Interfaces /User Experience
-                            design, to deliver interactive and engaging web
-                            experiences.
-                            <br />• Demonstrated expertise in debugging web page
-                            errors or issues, creating interactive learning
-                            objects, implementing OOPs concepts, developing
-                            responsive and interactive web pages, and producing
-                            high-quality videos.
-                            <br />• Applied skills in graphic design tools,
-                            including Adobe Photoshop and Adobe Illustrator, to
+                            <br />
+                            • Front-end web development using HTML5, CSS3,
+                            JavaScript, and Bootstrap to create dynamic and
+                            responsive web pages. <br />• In-depth knowledge of
+                            full-stack software development principles, Software
+                            Development life cycle, OOPs concepts, REST APIs,
+                            database design, and Use Interfaces / User
+                            Experience design, to deliver interactive and
+                            engaging web experiences. <br /> • Demonstrated
+                            expertise in debugging web page errors or issues,
+                            creating interactive learning objects, implementing
+                            OOPs concepts, developing responsive and interactive
+                            web pages, and producing high-quality videos. <br />{" "}
+                            • Work on Adobe Photoshop, Adobe Illustrator, to
                             design visually appealing banners and certificates
                             for events.
                         </li>
@@ -127,31 +124,28 @@ const About = () => {
                                 <br />
                                 at Gore Mutual Insurance <br />{" "}
                             </span>
-                            • Established context for incident response protocol
-                            & formulated plans to ensure system remediation
-                            within 5 days for 85% of reported incidents. <br />
-                            • Provide security support to organizations
-                            employees to resolve security incidents through Jira
-                            and ServiceNow ticket management. <br />
-                            • Enabled 95% of employees to comply with firm-wide
+                            • Established incident response protocol ensuring
+                            system remediation within 5 days for 85% of reported
+                            incidents. Provide support to resolve
+                            security-related technical incidents by ticket
+                            management – Jira, ServiceNow.
+                            <br /> • Enabled 95% of employees to comply with
                             security guidelines via training & policy overviews,
                             resulting in improved data security & confidential
-                            info protection. Completed identity and access
-                            management tasks. <br />
-                            • Conducted audits of the cloud environment to
-                            identify security risks and recommend security
-                            controls. <br />• Successfully identified and
-                            reported vulnerabilities to the security team.{" "}
-                            <br />• Monitored over 500 security events sourced
-                            from multiple SIEM tools daily, evaluated &
+                            info protection. Collaborated with the platform team
+                            to resolve security incidents. <br /> • Ensure
+                            Security Compliance by meeting external standards
+                            and internal security protocols. <br />
+                            • Identified vulnerabilities and document reports to
+                            the Enterprise security team, monitoring over 500
+                            security events via SIEM tools, evaluated problems &
                             identified priority incidents within a four-hour
-                            time frame. <br />• Maintained a security dashboard
-                            and provided a health check and status reports.{" "}
-                            <br />
-                            • Synchronized security tools to reduce response
-                            time. <br />• Contributed towards security projects
-                            such as Appguard deployment and Keeper (Password
-                            Safeguard).{" "}
+                            trip for Triage incoming requests. <br /> • Improved
+                            Security awareness by 80% with “KnowBe4” practices
+                            to make employees aware of security risks.
+                            Maintained a security dashboard and provided health
+                            checks and status reports. Synchronized security
+                            tools to reduce response time.
                         </li>
                     </ul>
                 </div>
